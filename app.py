@@ -6,7 +6,7 @@ import time
 
 # --- Configuration ---
 # Is model ka link bilkul naya hai aur ye 100% active hai
-API_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+API_URL = "https://api-inference.huggingface.co/models/prompthero/openjourney"
 HF_TOKEN = st.secrets["HF_TOKEN"]
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
