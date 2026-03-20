@@ -9,7 +9,7 @@ import os
 # API setup
 HF_TOKEN = st.secrets["HF_TOKEN"] # <--- APNA TOKEN YAHAN DALEIN
 # Hum stabilityai ka Stable Video Diffusion model use kar rahe hain
-API_URL ="https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
+API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
 # --- Website UI Setup ---
